@@ -23,7 +23,7 @@ public class NewTest extends Basicmethods{
 	
    
 	
-	@Test(priority=0,dataProvider="SearchProvider")
+	@Test(dataProvider="SearchProvider")
 
 	public void Amazonproduct(String USERNAME,String PASSWORD,String NAME,String PHONENUM,String PINCODE,String ADDRESSLINE1,String ADDRESSLINE2,String CITY,String STATE) throws InterruptedException{
 

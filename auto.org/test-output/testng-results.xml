@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-03-19T14:54:57 IST" name="Default suite" finished-at="2020-03-19T14:55:46 IST" duration-ms="49028">
+  <suite name="Default suite" duration-ms="53800" started-at="2020-03-20T15:51:45 IST" finished-at="2020-03-20T15:52:39 IST">
     <groups>
     </groups>
-    <test started-at="2020-03-19T14:54:57 IST" name="Default test" finished-at="2020-03-19T14:55:46 IST" duration-ms="49028">
+    <test name="Default test" duration-ms="53800" started-at="2020-03-20T15:51:45 IST" finished-at="2020-03-20T15:52:39 IST">
       <class name="selenium.NewTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:selenium.NewTest@63a65a25]" started-at="2020-03-19T14:54:57 IST" name="setUp" finished-at="2020-03-19T14:55:03 IST" duration-ms="5872" status="PASS">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium.NewTest@704a52ec]" name="setUp" is-config="true" duration-ms="5846" started-at="2020-03-20T15:51:45 IST" finished-at="2020-03-20T15:51:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="PurchaseProduct(java.lang.String, java.lang.String)[pri:0, instance:selenium.NewTest@63a65a25]" started-at="2020-03-19T14:55:03 IST" name="PurchaseProduct" data-provider="SearchProvider" finished-at="2020-03-19T14:55:45 IST" duration-ms="42454" status="PASS">
+        <test-method status="PASS" signature="Amazonproduct(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:selenium.NewTest@704a52ec]" name="Amazonproduct" duration-ms="47134" started-at="2020-03-20T15:51:51 IST" data-provider="SearchProvider" finished-at="2020-03-20T15:52:38 IST">
           <params>
             <param index="0">
               <value>
@@ -23,11 +23,46 @@
                 <![CDATA[Sumana@6]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sumana]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9786755656]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[560097]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Rajajinagar]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Bangalore]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- PurchaseProduct -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:selenium.NewTest@63a65a25]" started-at="2020-03-19T14:55:45 IST" name="CloseBrowser" finished-at="2020-03-19T14:55:46 IST" duration-ms="670" status="PASS">
+        </test-method> <!-- Amazonproduct -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:selenium.NewTest@704a52ec]" name="CloseBrowser" is-config="true" duration-ms="783" started-at="2020-03-20T15:52:38 IST" finished-at="2020-03-20T15:52:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->

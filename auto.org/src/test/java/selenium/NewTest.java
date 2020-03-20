@@ -1,10 +1,7 @@
 package selenium;
 
-import java.io.File;
+
 import java.util.ArrayList;
-import org.apache.poi.hssf.usermodel.HSSFSheet;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.DataFormatter;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -13,13 +10,6 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 public class NewTest extends Basicmethods{
 
-	
-	public static HSSFWorkbook workbook;
-	public static HSSFSheet worksheet;
-    public static DataFormatter formatter= new DataFormatter();
-    public static String file_location = System.getProperty("user.dir")+File.separator+"Data"+File.separator+"DataSheet.xlsx";
-    static String SheetName= "Sheet1";
-    public  String Res;
 	
    
 	
@@ -50,8 +40,6 @@ public class NewTest extends Basicmethods{
 		
 		String txt= driver.findElement(By.id("productTitle")).getText();
 		Thread.sleep(10000);
-
-
 		Assert.assertTrue(txt.contains("65"),"Product displayed-FAILED");
 		System.out.println("Product displayed-PASSED");
 	
